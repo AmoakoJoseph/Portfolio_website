@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Joseph's Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Joseph's portfolio showcasing projects in Python, HTML, and more">
+    <link rel="stylesheet" href="lib/w3schools30.css"> <!-- Keeping W3Schools styles -->
+    <style>
+        /* Custom Styles for Portfolio */
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+        }
+        header, footer {
+            background-color: #282A35;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .content {
+            padding: 40px;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .project-card {
+            background-color: #ffefd5;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
+        .project-title {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Joseph Amoako Antwi Boasiako</h1>
+    <p>Computer Science Student | Data Science Enthusiast | IT Support Specialist</p>
+</header>
+
+<div class="content">
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Joseph, a Computer Science student with experience in IT support, data science, and teaching. My technical skills include Python, SQL, and data visualization tools. I'm passionate about merging technology and education to solve real-world problems.</p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="project-title">Chatbot Assistant</div>
+                <p>A chatbot to assist students with FAQs using NLP and machine learning models.</p>
+                <p><strong>Language:</strong> Python</p>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="project-title">AI Language Learning Tool</div>
+                <p>An AI tool for beginners to learn languages with pronunciation feedback.</p>
+                <p><strong>Language:</strong> Python, TensorFlow</p>
+            </div>
+            <!-- Project 3 -->
+            <div class="project-card">
+                <div class="project-title">Code Quest Game</div>
+                <p>An interactive game teaching basic programming skills in HTML.</p>
+                <p><strong>Language:</strong> HTML, JavaScript</p>
+            </div>
+            <!-- Project 4 -->
+            <div class="project-card">
+                <div class="project-title">Automated Birthday Greeting System</div>
+                <p>A system built using Google AppScript to send automatic birthday greetings.</p>
+                <p><strong>Language:</strong> JavaScript, Google AppScript</p>
+            </div>
+            <!-- Project 5 -->
+             <div class="project-card">
+                <div class="project-title">Student FAQs Chatbot</div>
+                <p>A chatbot for automating answers to common questions using machine learning and NLP.</p>
+                <p><strong>Language:</strong> Python, TensorFlow</p>
+             </div>
+             
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>Contact me at <a href="mailto:josh170402@gmail.com">josh170402@gmail.com</a></p>
+    <p>Phone: +233 543 547 585</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/joseph-amoako-antwi-boasiako" target="_blank">Joseph Amoako Antwi Boasiako</a></p>
+</footer>
+
+</body>
+</html>
